@@ -14,42 +14,42 @@
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcuda</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcublas</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcufft</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcusparse</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcusolver</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcurand</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jnvgraph</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
         <dependency>
             <groupId>org.jcuda</groupId>
             <artifactId>jcudnn</artifactId>
-            <version>0.9.0c</version>
+            <version>0.9.0d</version>
         </dependency>
     </dependencies>
 
@@ -83,7 +83,7 @@
                     <executable>java</executable>
                     <arguments>
                         <argument>-classpath</argument>
-                        <classpath/>                    
+                        <classpath/>
                         <argument>org.jcuda.example.maven.JCudaExampleMaven</argument>
                     </arguments>
                 </configuration>
