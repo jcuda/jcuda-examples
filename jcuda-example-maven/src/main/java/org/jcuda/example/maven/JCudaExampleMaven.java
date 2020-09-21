@@ -8,7 +8,6 @@ import jcuda.jcufft.*;
 import jcuda.jcusparse.*;
 import jcuda.jcurand.*;
 import jcuda.jcusolver.*;
-import jcuda.jnvgraph.*;
 import jcuda.jcudnn.*;
 
 public class JCudaExampleMaven
@@ -25,10 +24,9 @@ public class JCudaExampleMaven
         JCusparse.setExceptionsEnabled(true);
         JCurand.setExceptionsEnabled(true);
         JCusolver.setExceptionsEnabled(true);
-        JNvgraph.setExceptionsEnabled(true);
 
         // JCudnn requires the CUDNN library to be in a visible path!
-        //JCudnn.setExceptionsEnabled(true);
+        JCudnn.setExceptionsEnabled(true);
 
         Pointer pointer = new Pointer();
         JCuda.cudaMalloc(pointer, 4);

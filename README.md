@@ -11,6 +11,6 @@ dependency handling, using different dependency management and build tools.
 
 Example projects and build files are contained in the following directories:
 
-- [jcuda-example-maven](https://github.com/jcuda/jcuda-examples/jcuda-example-maven) :
+- [jcuda-example-maven](https://github.com/jcuda/jcuda-examples/tree/master/jcuda-example-maven) :
   An example project showing how to declare the JCuda dependencies in a Maven POM
 
